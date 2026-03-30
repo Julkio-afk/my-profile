@@ -1,0 +1,89 @@
+/*font-size: 30 px;line-heigh:1.6;letter-spacing: 10 px;	font-weigh: light;*/
+
+
+body{
+	background-color: rgb(251, 232, 206);
+}
+
+h1      {
+	color: darkgreen;
+	font-family: Helvetica;
+}
+
+h2 {
+	color: rgb(154, 177, 122);
+	font-family: Iosevka Charon Mono;
+	font-size: 400;
+}
+a {
+	text-decoration: none;
+	color:blue;
+	font-weight: bold;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: darkseagreen;
+}
+
+
+/* design with classes*/
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.white-bloc {
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 5px;
+}
+
+.pres {
+	color: red;
+}
+
+.image-myself {
+	border-radius: 50%;
+	width: 140px;
+	height: auto;
+}
+
+.boutton {
+	padding: 10px 20px;
+	margin: 20px auto;
+	color: black;
+	background-color: darkgreen;
+	border-radius: 12px;
+	margin-bottom: 20px;
+}
+.boutton:hover {
+	background-color: blue;
+	color: white;
+}
+
+.basic-list li{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal a {
+	font-size: 30px;
+}
+
+#end p {
+	margin-bottom: 30px;
+}
